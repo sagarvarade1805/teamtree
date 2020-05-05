@@ -447,17 +447,21 @@ hr {
   height: 4.4rem;
   width: 100%;
   z-index: 1000; }
-  @media (max-width: 56.25em) {
-    .nav-bar {
-      height: 6.5rem; } }
   .nav-bar .main-logo {
     margin: 0rem 1rem;
     padding: 0rem 2rem;
     width: 15rem;
     cursor: pointer; }
-    @media (max-width: 37.5em) {
+    @media (max-width: 39em) {
       .nav-bar .main-logo {
-        width: 10rem !important; } }
+        padding: 0 0;
+        margin: 0 0;
+        margin-top: .5rem;
+        width: 3rem !important;
+        font-size: .4rem;
+        object-fit: cover;
+        height: 3rem;
+        object-position: 0% -2%; } }
   .nav-bar .nav-lists {
     float: right;
     margin-right: 4rem; }
@@ -480,6 +484,10 @@ hr {
       @media (max-width: 75em) {
         .nav-bar .nav-lists .nav-link, .nav-bar .nav-lists .nav-link:link, .nav-bar .nav-lists .nav-link:visited {
           margin-right: 1rem !important; } }
+      @media (max-width: 37.5em) {
+        .nav-bar .nav-lists .nav-link, .nav-bar .nav-lists .nav-link:link, .nav-bar .nav-lists .nav-link:visited {
+          font-size: .75rem;
+          margin-right: 1rem; } }
     .nav-bar .nav-lists .nav-link:hover {
       color: #4b5658; }
     .nav-bar .nav-lists .nav-link:active, .nav-bar .nav-lists .nav-link:focus {
@@ -538,6 +546,10 @@ hr {
   font-weight: 700;
   cursor: pointer;
   font-size: .9rem; }
+  @media (max-width: 37.5em) {
+    .nav-special, .nav-special:link, .nav-special:visited {
+      font-size: .75rem;
+      margin-right: 0rem; } }
 
 .nav-special:hover {
   color: #0bbd40; }

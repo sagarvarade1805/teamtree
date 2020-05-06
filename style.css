@@ -71,8 +71,7 @@ body {
   cursor: pointer; }
 
 .btn-green:hover {
-  background-color: #00a740;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  background-color: #00a740; }
 
 .btn-green:active, .btn-green:focus {
   outline: none; }
@@ -275,8 +274,7 @@ body {
       padding: .8rem 2rem !important; } }
 
 .form-botton:hover {
-  background-color: #2857af;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  background-color: #2857af; }
 
 .form-botton:active, .form-botton:focus {
   background-color: #2857af; }
